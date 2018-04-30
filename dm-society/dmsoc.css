@@ -5,6 +5,14 @@ html {
   background-size: cover;
 }
 
+a:link{color: #4040FC;}
+a:visited{color: #8549BB;}
+a:hover{font-size: 110%;}
+
+h1, h2, h3{
+	font-family: 'Asul', sans-serif;
+}
+
 h1 {
 	text-transform: capitalize;
 	font-size: 3em;
@@ -16,25 +24,25 @@ header {
 }
 
 p{
-
+	font-family: 'Lato', sans-serif;
 }
 
 body {
-	font-size: 16px;
-	color: white;
-	font-family: georgia, helvetica, serif;
-	line-height: 1.25;
-	margin-right: 50%;
-	margin-left: 20px;
+	font: 16px/1.25 georgia, helvetica, serif;;
+	margin:0 50% 0 20px;
 }
 
 footer {
-	font-family: verdana, helvetica, serif;
-	font-size: 0.66em
+	font-size: 0.66em;
 }
 
 #transbox {
 	background-color: rgba(46, 9, 39, 0.6);
 	border: 1px solid black;
-	color: white
+	color: white;
+}
+
+.nav li {
+display: inline;
+padding: 10px;
 }
