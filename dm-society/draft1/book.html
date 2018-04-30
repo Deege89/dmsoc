@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Dungeon Master Society - How to book</title>
+	<link rel="stylesheet" href="dmsoc.css">
+
+</head>
+
+<header>
+
+	<ul>
+		<li>
+			<a href="/">Home</a>
+		</li>
+		<li>
+			<a href="/what">What we do</a>
+		</li>
+	
+		<li>
+			<a href="/why">Why you should hire us</a>
+		</li>
+	
+		<li>
+			<a href="/who">Who our DMs are</a>
+		</li>
+	
+		<li>
+			<a href="/book">How you can book us</a>
+		</li>
+
+		<li>
+			<a href="/become">Become a DM</a>
+		</li>
+	</ul>
+	
+</header>
+
+<body>
+	<h1>Session costs</h1>
+		<p>Your first session, session 0, is completely free. It's a chance for you to meet your DM, get to know each other, let them know what you want, create characters, and learn about the campaign you're about to start.</p>
+		<p>Every regular session costs $5 per player per hour. Book now to take advantage of our special offer of 50% off for your first 5 sessions!</p>
+		<p>Once you book a session, one of our DMs will be in touch with you soon to get started.</p>
+		<p>You can prepay via Paypal or direct deposit, or pay your DM on the day</p>
+	<h1>Booking Form</h1>
+		<p>All fields marked with * are required.</p>
+	
+	<form action="booking.php" method="post">
+	
+	<p>Name: *</p>
+		<p><input name="name"></p>
+	<p>Phone Number: *</p>
+		<p><input name="phone"></p>
+	<p>Email Address: *</p>
+		<p><input name="email"></p>
+	<p>Preferred contact method:</p>
+		<p><input type="radio" name="contactmethod" value="phone">Phone</p>
+		<p><input type="radio" name="contactmethod" value="email">Email</p>
+	<p>Street address: *</p>
+		<p><input name="streetaddress" value="e.g. Unit 1, 123 Happy St."></p>
+	<p>Suburb: *</p>
+		<p><input name="suburb"></p>
+	<p>Preferred DM (see our <a href="/who">profile page</a>)</p>
+		<p><input type="checkbox" name="preferredDM" value="any">Any DM</p>
+		<p><input type="checkbox" name="preferredDM" value="Dan M">Dan M</p>
+	<p>Number of players: *</p>
+		<p><input type="radio" name="playerno." value="3">3</p>
+		<p><input type="radio" name="playerno." value="4">4</p>
+		<p><input type="radio" name="playerno." value="5">5</p>
+		<p><input type="radio" name="playerno." value="6">6</p>
+	<p>Have all the players played D&amp;D before?</p>
+		<p><input type="radio" name="experienced" value="yes">Yes</p>
+		<p><input type="radio" name="experienced" value="no">No</p>
+	<p>Our group enjoys combat:</p>
+		<p>Not at all
+			<input type="radio" name="combat" value="1">
+			<input type="radio" name="combat" value="2">
+			<input type="radio" name="combat" value="3">
+			<input type="radio" name="combat" value="4">
+			<input type="radio" name="combat" value="5">
+			<input type="radio" name="combat" value="6">
+			<input type="radio" name="combat" value="7">
+		A lot</p>
+	<p>Our group enjoys exploring new worlds:</p>
+		<p>Not at all
+			<input type="radio" name="exploration" value="1">
+			<input type="radio" name="exploration" value="2">
+			<input type="radio" name="exploration" value="3">
+			<input type="radio" name="exploration" value="4">
+			<input type="radio" name="exploration" value="5">
+			<input type="radio" name="exploration" value="6">
+			<input type="radio" name="exploration" value="7">
+		A lot</p>
+	<p>Our group enjoys stories and roleplaying:</p>
+		<p>Not at all
+			<input type="radio" name="RP" value="1">
+			<input type="radio" name="RP" value="2">
+			<input type="radio" name="RP" value="3">
+			<input type="radio" name="RP" value="4">
+			<input type="radio" name="RP" value="5">
+			<input type="radio" name="RP" value="6">
+			<input type="radio" name="RP" value="7">
+		A lot</p>
+	<p>Additional info:</p>
+		<textarea rows="5" cols="20"></textarea>
+	<p><input type="submit"></p>
+
+	</form>
+	
+</body>
+
+<footer>
+	<p><a href="mailto:contact@dmsociety.org">contact@dmsociety.org</a></p>
+	<p>Copyright © 2018 DMSociety. All Rights Reserved.</p>
+</footer>
+</html>
