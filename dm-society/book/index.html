@@ -51,26 +51,22 @@
 	<form action="booking.php" method="post">
 	
 	<p>Name: *</p>
-		<p><input name="name"></p>
-	<p>Phone Number: *</p>
-		<p><input name="phone"></p>
-	<p>Email Address: *</p>
-		<p><input name="email"></p>
+		<p><input name="name" required></p>
+	<p>Phone Number:</p>
+		<p><input type="tel" name="phone"></p>
+	<p>Email Address:</p>
+		<p><input type=email name="email"></p>
 	<p>Preferred contact method:</p>
 		<p><input type="radio" name="contactmethod" value="phone">Phone</p>
 		<p><input type="radio" name="contactmethod" value="email">Email</p>
 	<p>Street address: *</p>
-		<p><input name="streetaddress" placeholder="e.g. Unit 1, 123 Happy St."></p>
-	<p>Suburb: *</p>
-		<p><input name="suburb"></p>
+		<p><input name="streetaddress" placeholder="e.g. Unit 1, 123 Happy St." required></p>
+		<p><input name="suburb" placeholder="City/town/suburb" required></p>
 	<p>Preferred DM (see our <a href="/who">profile page</a>)</p>
 		<p><input type="checkbox" name="preferredDM" value="any">Any DM</p>
 		<p><input type="checkbox" name="preferredDM" value="Dan M">Dan M</p>
 	<p>Number of players: *</p>
-		<p><input type="radio" name="playerno." value="3">3</p>
-		<p><input type="radio" name="playerno." value="4">4</p>
-		<p><input type="radio" name="playerno." value="5">5</p>
-		<p><input type="radio" name="playerno." value="6">6</p>
+		<p><input type="number" name="playerno." min="1">
 	<p>Have all the players played D&amp;D before?</p>
 		<p><input type="radio" name="experienced" value="yes">Yes</p>
 		<p><input type="radio" name="experienced" value="no">No</p>
@@ -105,7 +101,7 @@
 			<input type="radio" name="RP" value="7">
 		A lot</p>
 	<p>Additional info:</p>
-		<textarea rows="5" cols="20"></textarea>
+		<textarea rows="5" cols="50"></textarea>
 	<p><input type="submit"></p>
 
 	</form>
