@@ -5,7 +5,7 @@ html {
   background-size: cover;
 }
 
-a:link{color: #4040FC;}
+a:link{color: #5E88A9;}
 a:visited{color: #8549BB;}
 a:hover{font-size: 110%;}
 
@@ -45,6 +45,7 @@ footer p{
 	border: 1px solid black;
 	color: white;
 	margin:0 50% 0 20px;
+	min-width: 400px
 }
 
 .nav li {
@@ -66,11 +67,12 @@ color: white;
 }
 
 #profile {
-	float: right;
+	float: left;
 	margin-left: 250px;
 	background-color: rgba(46, 9, 39, 0.6);
 	border: 1px solid black;
 	color: white;
+	min-width: 400px;
 }
 #profile li{
 	font-family: 'Lato', sans-serif;
